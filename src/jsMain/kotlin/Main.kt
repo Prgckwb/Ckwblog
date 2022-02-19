@@ -13,7 +13,7 @@ fun main() {
             Button(attrs = {
                 onClick { count -= 1 }
             }) {
-                Text("-")
+                Text("減らす")
             }
 
             Span({ style { padding(15.px) } }) {
@@ -23,7 +23,7 @@ fun main() {
             Button(attrs = {
                 onClick { count += 1 }
             }) {
-                Text("+")
+                Text("増やす")
             }
         }
     }
