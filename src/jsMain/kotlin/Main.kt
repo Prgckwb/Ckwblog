@@ -8,12 +8,12 @@ import org.jetbrains.compose.web.dom.*
 import org.jetbrains.compose.web.renderComposable
 
 import content.*
+import style.AppStyleSheet
 
 fun main() {
     renderComposable(rootElementId = "root") {
-        Layout {
-            Header()
-        }
+        Style(AppStyleSheet)
+        News()
     }
 }
 
